@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="supu.css">
+
+<style>
+
+	
+body
+	{
+		background-image: url(images/sup22.jpg);
+		background-repeat: no-repeat;
+height: 80%;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+
+
+	}
+	
+</style>
+</head>
+ <body >
+	<marquee class="imgmarquee" behavior="scroll" direction="left" scrollamont="10">
+	<img src="images/sup1.jpg">
+		<img src="images/sup2.jpg">
+		<img src="images/sup3.jpg">
+		<img src="images/sup4.jpg">
+		<img src="images/sup5.jpg">
+		<img src="images/sup6.jpg">
+		<img src="images/sup77.jpg">
+		<img src="images/sup88.jpg">
+		<img src="images/sup99.jpg">
+		<img src="images/sup100.jpg">
+	</marquee>
+	<marquee class="imgmarquee" behavior="scroll" direction="left" scrollamont="10">
+		<img src="images/sup11.jpg">
+				<img src="images/sup12.jpg">
+		<img src="images/sup13.jpg">
+				<img src="images/sup14.jpg">
+		<img src="images/sup15.jpg">
+		<img src="images/sup16.jpg">
+		<img src="images/sup17.jpg">
+		<img src="images/sup18.jpg">
+		<img src="images/sup19.jpg">
+	
+	<img src="images/sup200.jpg">
+
+	</marquee>
+		<marquee class="imgmarquee" behavior="scroll" direction="left" scrollamont="10">
+					<img src="images/sup21.jpg">
+		<img src="images/sup2222.jpg">
+		<img src="images/sup23.jpg">
+		<img src="images/sup24.jpg">
+		<img src="images/sup25.jpg">
+		<img src="images/sup26.jpg">
+		<img src="images/sup27.jpg">
+		<img src="images/sup28.jpg">
+		<img src="images/sup29.jpg">
+		<img src="images/sup300.jpg">
+		</marquee>
+		<script>
+			function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.innerText = "  💖 ";
+
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = (2 + Math.random() * 3) + "s";
+        document.body.appendChild(heart);
+
+        setTimeout(() => heart.remove(), 5000);
+    }
+
+    setInterval(createHeart, 500);
+		</script>
+	
+</body>
+</html>
